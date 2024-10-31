@@ -1,0 +1,147 @@
+/* Container for the review product card */
+.review-product-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 40px auto;
+    font-family: 'Roboto', sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .review-product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Title styles */
+  .review-product-card h5 {
+    font-size: 24px;
+    color: #007bff;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  
+  /* Document Review Section */
+  .review-product-card .mb-3 {
+    margin-bottom: 30px;
+  }
+  
+  /* Checkbox and label styling */
+  .review-product-card .form-check-label {
+    font-size: 16px;
+    color: #333;
+    text-transform: capitalize;
+  }
+  
+  .review-product-card .form-check-input {
+    transform: scale(1.2);
+    margin-right: 10px;
+  }
+  
+  /* Textarea styling */
+  .review-product-card textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 10px;
+    font-size: 14px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .review-product-card textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+    outline: none;
+  }
+  
+  /* Buttons styling */
+  .review-product-card button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .review-product-card button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+  }
+  
+  .review-product-card button:focus {
+    outline: none;
+  }
+  
+  /* Links (view documents) styling */
+  .review-product-card a {
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: underline;
+  }
+  
+  .review-product-card a:hover {
+    color: #0056b3;
+    text-decoration: none;
+  }
+  /* ReviewProduct.css */
+
+.review-product-card {
+  /* Similar styling to AddProduct's card */
+}
+
+.sub-row {
+  background-color: #f9f9f9;
+}
+
+.sub-part {
+  padding-left: 20px;
+  font-style: italic;
+}
+
+.drag-drop-area {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 10px;
+  color: #999;
+}
+
+.drag-drop-area:hover {
+  border-color: #aaa;
+  color: #666;
+}
+.product-details, .product-info {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+h4 {
+  margin-top: 20px;
+  color: #333;
+}
+
+ul {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+pre {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}

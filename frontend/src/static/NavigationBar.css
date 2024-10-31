@@ -1,0 +1,26 @@
+.navbar-custom {
+    background: linear-gradient(90deg, #007bff, #673ab7);  /* Tighter gradient */
+    padding: 1rem 2rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    color: #f8f9fa; /* Light color for text */
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #ffc107; /* Highlight color on hover */
+    text-decoration: underline; /* Underline effect */
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-custom {
+      padding: 0.5rem 1rem; /* Reduced padding on smaller screens */
+    }
+  }
+  

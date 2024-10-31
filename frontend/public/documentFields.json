@@ -1,0 +1,365 @@
+[
+  {
+      "title": "Risk Management",
+      "name": "risk_management",
+      "description": "Document outlining the system risk assessment and potential risk management plan associated with the system, including defining risk levels and measurement tools.",
+      "requirements": [
+          {
+              "requirement": "High-risk AI and Low-risk AI Definition",
+              "expected": "The definitions adopted by your respective organization for high-risk AI systems and low-risk AI systems. Should clearly define criteria for high-risk and low-risk AI systems. Should provide examples of each category to illustrate the differences.",
+              "marks": 3
+          },
+          {
+              "requirement": "AI System Categorization",
+              "expected": "A document categorizing AI systems provided by your respective organization with regards to high vs low risk AI. Should detail the categorization methodology used by the organization, including criteria and processes for categorizing AI systems. Include a classification matrix or decision tree.",
+              "marks": 3
+          },
+          {
+              "requirement": "Risk Assessment Reports",
+              "expected": "Identification of potential risks (technical, ethical, operational) and the methods used to assess their likelihood and impact. Should include a risk matrix or similar tool to visualize risk levels.",
+              "marks": 3
+          },
+          {
+              "requirement": "Mitigation Plans",
+              "expected": "Strategies and actions taken to minimize identified risks. This should detail the timeline, responsible parties, and specific measures implemented per risk.",
+              "marks": 3
+          },
+          {
+              "requirement": "Safety Validation and Testing Documentation",
+              "expected": "Results from safety testing, including scenarios tested, methodologies used, outcomes, and any modifications made to enhance safety.",
+              "marks": 1
+          },
+          {
+              "requirement": "Performance Monitoring Logs",
+              "expected": "Records of ongoing monitoring activities, performance metrics, and any corrective actions taken in response to issues or deviations from expected performance. Should include frequency of monitoring and reporting structures.",
+              "marks": 1
+          },
+          {
+              "requirement": "Stress Test Documentation",
+              "expected": "Details on test cases designed to challenge the AI system under extreme or unexpected conditions, results from these tests, and how findings were addressed. Include sample results from these tests, analyses of system responses, and how findings were addressed.",
+              "marks": 1
+          }
+      ],
+      "totalMarks": 15
+  },
+  {
+      "title": "Transparency Report",
+      "name": "transparency_report",
+      "description": "Report explaining how transparency is achieved, including clear and understandable interpretations of the system's functioning and the reasons behind its outcomes.",
+      "requirements": [
+          {
+              "requirement": "Transparency Log",
+              "expected": "Explanations of the AI model’s architecture, data sources, algorithms, and decision-making processes. Should also cover any limitations and uncertainties associated with the model. Should detail how data is collected, stored, processed, and used by the AI system.",
+              "marks": 3
+          },
+          {
+              "requirement": "Algorithm Documentation",
+              "expected": "Detailed descriptions of the algorithms used, including model types, training data characteristics, and parameter settings. Include model cards that summarize this information. Should include details on the rationale behind AI system outcomes, including explanations of key decision points.",
+              "marks": 3
+          },
+          {
+              "requirement": "User Guides/Manuals",
+              "expected": "Guides designed for non-technical stakeholders to understand how to interpret AI system outputs, including visual aids and simplified explanations of the AI's functionality.",
+              "marks": 3
+          },
+          {
+              "requirement": "AI Methods Explanation",
+              "expected": "The report should explain the behavior of the system as well as ensure the deployment of reliable technology. The report should help to better understand the AI system’s underlying mechanism as well as the interpretation of the outcomes.",
+              "marks": 3
+          },
+          {
+              "requirement": "Internal Audit Logs",
+              "expected": "Records that allow tracing decisions back to their data sources and algorithms, including timestamps, data points used, and any intermediate processing steps.",
+              "marks": 1
+          }
+      ],
+      "totalMarks": 13
+  },
+  {
+      "title": "Fairness & Equity",
+      "name": "fairness_equity",
+      "description": "Document outlining the strategy to ensure fairness in the use of the AI system to avoid bias among user groups.",
+      "requirements": [
+          {
+              "requirement": "Diversity and Inclusion Analysis",
+              "expected": "Section detailing the representativeness of training datasets, including demographic breakdowns and assessments of potential biases. Should also discuss steps taken to mitigate any identified biases.",
+              "marks": 3
+          },
+          {
+              "requirement": "Bias Detection and Mitigation",
+              "expected": "Section detailing methodologies and tools used for detecting bias in AI models and datasets (e.g., fairness metrics, debiasing algorithms). Should include specific steps for mitigating identified biases.",
+              "marks": 3
+          },
+          {
+              "requirement": "Fairness Metrics Documentation",
+              "expected": "Metrics used to assess fairness, such as disparate impact or equalized odds, and the methods used to calculate these metrics. Include thresholds for acceptable levels of fairness.",
+              "marks": 3
+          },
+          {
+              "requirement": "Internal Audit Reports",
+              "expected": "Findings from periodic audits that evaluate fairness and detect biases in AI outcomes. Should include methodologies used, results, corrective actions, and follow-up measures.",
+              "marks": 1
+          },
+          {
+              "requirement": "AI Fairness Position Statement",
+              "expected": "A fairness position statement communicates the fairness criteria and ethical standards of an AI system in clear language, explaining the rationale behind these choices.",
+              "marks": 2
+          }
+      ],
+      "totalMarks": 12
+  },
+  {
+      "title": "Accountability and Responsibility",
+      "name": "accountability_and_responsibility",
+      "description": "Document detailing the governance and emergency plan to abort or intervene in the AI system when it doesn’t function as intended or leads to unsafe practices.",
+      "requirements": [
+          {
+              "requirement": "Organizational Charts",
+              "expected": "Should include all roles involved in AI development, deployment, and oversight. Should highlight clear lines of authority and accountability.",
+              "marks": 2
+          },
+          {
+              "requirement": "Accountability Mechanisms",
+              "expected": "Provide mechanisms for holding individuals and teams accountable for AI system outcomes. Include internal and external review processes, performance evaluations, and corrective action plans.",
+              "marks": 2
+          },
+          {
+              "requirement": "Human Intervention Protocols",
+              "expected": "Guidelines and procedures outlining when and how human intervention is necessary, the process for escalating decisions to human supervisors, and criteria for overriding AI decisions.",
+              "marks": 2
+          },
+          {
+              "requirement": "Incident Reports",
+              "expected": "Detailed descriptions of incidents where human oversight was applied, including the context, actions taken, and outcomes.",
+              "marks": 1
+          }
+      ],
+      "totalMarks": 7
+  },
+  {
+      "title": "System Performance Indicators",
+      "name": "system_performance_indicators",
+      "description": "Report containing performance indicators used in the system to ensure the safety and reliability of the system and the responsibilities of the relevant parties.",
+      "requirements": [
+          {
+              "requirement": "List of Performance Indicators",
+              "expected": "KPIs related to safety and reliability, such as accuracy rates, response times, system uptime, error rates, and failure rates. Should define key performance indicators (KPIs) used to measure AI system performance.",
+              "marks": 2
+          },
+          {
+              "requirement": "Measurement Methodology",
+              "expected": "Detailed explanation of how each KPI is measured, including the data sources used, frequency of measurement, and tools or methods for data collection and analysis.",
+              "marks": 2
+          },
+          {
+              "requirement": "Test Results and Analysis",
+              "expected": "Summarized results of safety tests, including any failures, anomalies, or unexpected behaviors. Provide analysis of what the results indicate about the system’s reliability.",
+              "marks": 1
+          },
+          {
+              "requirement": "Validation Protocols",
+              "expected": "Protocols used to validate that the system meets safety and reliability requirements, including any external audits or certifications obtained.",
+              "marks": 2
+          },
+          {
+              "requirement": "Monitoring Tools and Techniques",
+              "expected": "Description of the tools and techniques used for continuous monitoring of system performance.",
+              "marks": 1
+          },
+          {
+              "requirement": "Stakeholder Responsibilities",
+              "expected": "Roles of different stakeholders (e.g., developers, operators, maintenance teams) in maintaining and improving system reliability.",
+              "marks": 1
+          }
+      ],
+      "totalMarks": 9
+  },
+  {
+      "title": "Privacy and Security",
+      "name": "privacy_and_security",
+      "description": "Report on compliance with local or international data privacy and protection regulations, data classification policies, and control measures used, and any procedures to be followed to ensure compliance with related regulations and policies.",
+      "requirements": [
+          {
+              "requirement": "Data Privacy Impact Assessments",
+              "expected": "Evaluations of how personal data is processed, identifying potential privacy risks and outlining measures to mitigate them.",
+              "marks": 2
+          },
+          {
+              "requirement": "Data Privacy and Security Policies",
+              "expected": "Detailed descriptions of policies and practices for protecting data against unauthorized access, breaches, and misuse.",
+              "marks": 2
+          },
+          {
+              "requirement": "Incident Response Plan",
+              "expected": "Provide a detailed plan for responding to data breaches or other privacy incidents.",
+              "marks": 2
+          },
+          {
+              "requirement": "Anonymization and Pseudonymization Methods",
+              "expected": "Documentation of methods used to remove or obscure personal identifiers in data.",
+              "marks": 1
+          },
+          {
+              "requirement": "Compliance with Regulatory Landscape",
+              "expected": "List of relevant data privacy regulations and standards the organization complies with.",
+              "marks": 1
+          },
+          {
+              "requirement": "Data Access Logs",
+              "expected": "Records of who accessed data, when, and for what purpose.",
+              "marks": 1
+          }
+      ],
+      "totalMarks": 9
+  },
+  {
+      "title": "Stakeholder Engagement",
+      "name": "stakeholder_engagement",
+      "description": "Report explaining stakeholder engagement and the responsibilities associated with the system and the responsible parties.",
+      "requirements": [
+          {
+              "requirement": "Stakeholder Identification and Analysis",
+              "expected": "List of all stakeholders involved or impacted by the AI system. Include a stakeholder mapping to categorize them based on their influence and interest.",
+              "marks": 2
+          },
+          {
+              "requirement": "Engagement Methods",
+              "expected": "Description of the different methods used to engage stakeholders, such as surveys, focus groups, workshops.",
+              "marks": 2
+          },
+          {
+              "requirement": "Feedback Analysis",
+              "expected": "Analysis of the feedback to identify key areas for improvement, risks, or opportunities.",
+              "marks": 2
+          },
+          {
+              "requirement": "Stakeholder MoMs (sanitized)",
+              "expected": "Sample records of meetings or consultations held with stakeholders, providing transparency and accountability.",
+              "marks": 1
+          }
+      ],
+      "totalMarks": 7
+  },
+  {
+      "title": "Compliance in Principles",
+      "name": "compliance_in_principles",
+      "description": "Report on compliance or results of ethical AI audits against AI ethics principles or any global standards.",
+      "requirements": [
+          {
+              "requirement": "Compliance Framework",
+              "expected": "Outline of the ethical principles and global standards that the AI system currently complies with.",
+              "marks": 2
+          },
+          {
+              "requirement": "Standards Referenced",
+              "expected": "List of the global standards referenced in the compliance framework, such as ISO/IEC standards, IEEE guidelines.",
+              "marks": 1
+          },
+          {
+              "requirement": "Alignment Evidence",
+              "expected": "Document detailing evidence of how the AI system meets or exceeds the requirements of each referenced standard.",
+              "marks": 2
+          },
+          {
+              "requirement": "Compliance Certification",
+              "expected": "Information on any certifications or recognitions obtained based on compliance to global or regional ethics principles.",
+              "marks": 1
+          },
+          {
+              "requirement": "Compliance Audits and Reviews",
+              "expected": "Section outlining the process for conducting regular audits and reviews to assess compliance with ethical standards.",
+              "marks": 2
+          },
+          {
+              "requirement": "Monitoring Activities",
+              "expected": "Overview of regular activities conducted to monitor compliance with ethical principles.",
+              "marks": 2
+          }
+      ],
+      "totalMarks": 10
+  },
+  {
+      "title": "Impact of AI System on Human Rights",
+      "name": "impact_of_ai_system_on_human_rights",
+      "description": "Human rights impact assessment report and the measurement mechanism used.",
+      "requirements": [
+          {
+              "requirement": "Human Rights Impact Assessments",
+              "expected": "Reports detailing the potential impact of the AI system on human rights.",
+              "marks": 2
+          },
+          {
+              "requirement": "Stakeholder Consultation Reports",
+              "expected": "Records of consultations with stakeholders on human rights impacts.",
+              "marks": 1
+          },
+          {
+              "requirement": "Monitoring and Reporting on Human Rights Impacts",
+              "expected": "Plan for ongoing monitoring and reporting of human rights impacts.",
+              "marks": 2
+          },
+          {
+              "requirement": "Mitigation Plans",
+              "expected": "Documentation of strategies to address any identified human rights risks, including timelines and responsibilities.",
+              "marks": 1
+          }
+      ],
+      "totalMarks": 6
+  },
+  {
+      "title": "Social Environmental and Cultural Impact Assessment",
+      "name": "social_environmental_and_cultural_impact_assessment",
+      "description": "Reports assessing the social, environmental, and cultural impact of the AI system.",
+      "requirements": [
+          {
+              "requirement": "Impact Evaluation",
+              "expected": "Assessments of how the AI system affects various social, environmental, and cultural factors.",
+              "marks": 2
+          },
+          {
+              "requirement": "Mitigation Strategy",
+              "expected": "Plans and actions taken to minimize any adverse impacts identified in the impact evaluations.",
+              "marks": 2
+          },
+          {
+              "requirement": "List of Identified Impacts",
+              "expected": "List and description of all negative impacts identified in the Impact Assessment Report.",
+              "marks": 1
+          }
+      ],
+      "totalMarks": 5
+  },
+  {
+      "title": "Training Intiatives for Employees",
+      "name": "training_intiatives_for_employees",
+      "description": "Report showing the regular training provided to employees on AI risks and ethics, including the frequency of these training sessions.",
+      "requirements": [
+          {
+              "requirement": "Training Session Records",
+              "expected": "Detailed logs of training sessions, including dates, attendees, materials used, and session objectives.",
+              "marks": 2
+          },
+          {
+              "requirement": "Training Program Overview",
+              "expected": "Breakdown of the content covered in each training session.",
+              "marks": 2
+          },
+          {
+              "requirement": "Presentation Slides",
+              "expected": "Provide presentation slides, videos, or recorded sessions used during training.",
+              "marks": 1
+          },
+          {
+              "requirement": "Certification Records",
+              "expected": "Documentation proving that employees have completed mandatory training on AI ethics and risk management.",
+              "marks": 1
+          },
+          {
+              "requirement": "Attendance Records",
+              "expected": "Records of employee attendance at each training session.",
+              "marks": 1
+          }
+      ],
+      "totalMarks": 7
+  }
+]

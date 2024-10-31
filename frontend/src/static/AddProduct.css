@@ -1,0 +1,201 @@
+/* Common Container for both AddProduct and AddCompany forms */
+.form-container {
+    background-color: #f9f9f9; /* Light grey background */
+    padding: 50px; /* Ample padding */
+    border-radius: 15px; /* Smooth rounded corners */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    max-width: 1200px; /* Larger width */
+    margin: 40px auto; /* Center the form and add top/bottom margin */
+    font-family: 'Roboto', sans-serif; /* Clean modern font */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition effects */
+    text-align: left; /* Align text to the left */
+}
+
+.form-container:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15); /* Deeper shadow on hover */
+}
+
+/* Form Header */
+.emp-profile h2 {
+    font-size: 32px; /* Larger title */
+    color: #333; /* Darker text */
+    text-align: center; /* Center align */
+    margin-bottom: 30px; /* Space under the title */
+    font-weight: 700; /* Bolder weight */
+    letter-spacing: 1px; /* Slight letter spacing */
+    text-transform: uppercase; /* Uppercase text */
+    border-bottom: 2px solid #007bff; /* Blue underline */
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+/* Form Styles */
+.add-product-form, .add-company-form {
+    background-color: #ffffff; /* White background inside the form */
+    padding: 30px; /* Comfortable padding */
+    border-radius: 12px; /* Smooth corners */
+}
+
+/* Labels */
+.add-product-form label, .add-company-form label {
+    font-weight: 700; /* Bold labels */
+    font-size: 16px; /* Larger font size */
+    color: #444; /* Darker color for labels */
+    margin-bottom: 8px; /* Space under the labels */
+    display: block; /* Ensure labels are on their own line */
+    text-transform: uppercase; /* Uppercase labels for emphasis */
+}
+
+/* Input, TextArea, and Select Fields */
+.add-product-form input, .add-product-form textarea, .add-product-form select,
+.add-company-form input, .add-company-form textarea, .add-company-form select {
+    width: 100%; /* Full-width fields */
+    padding: 15px; /* Comfortable padding */
+    margin-bottom: 20px; /* Space between input fields */
+    border: 1px solid #ccc; /* Lighter border */
+    border-radius: 10px; /* Smooth corners */
+    font-size: 15px; /* Slightly larger text size */
+    color: #333; /* Darker text */
+    background-color: #f8f8f8; /* Light grey background for fields */
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.05); /* Subtle inner shadow for depth */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+/* Focused Input Fields */
+.add-product-form input:focus, .add-product-form textarea:focus, .add-product-form select:focus,
+.add-company-form input:focus, .add-company-form textarea:focus, .add-company-form select:focus {
+    border-color: #007bff; /* Blue border on focus */
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.4); /* Light blue glow */
+}
+
+/* Button Styling */
+.add-product-form button, .add-company-form button {
+    width: 100%; /* Full-width buttons */
+    padding: 15px; /* Comfortable padding */
+    font-size: 16px; /* Larger button text */
+    font-weight: bold; /* Bold button text */
+    color: white; /* White text color */
+    background-color: #007bff; /* Blue background */
+    border: none; /* No border */
+    border-radius: 10px; /* Smooth button corners */
+    cursor: pointer; /* Pointer on hover */
+    box-shadow: 0 5px 10px rgba(0, 123, 255, 0.2); /* Subtle shadow for depth */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+/* Button Hover */
+.add-product-form button:hover, .add-company-form button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    box-shadow: 0 8px 15px rgba(0, 123, 255, 0.4); /* Deeper shadow on hover */
+}
+
+/* Remove focus outline for buttons */
+.add-product-form button:focus, .add-company-form button:focus {
+    outline: none;
+}
+
+/* Extra styling for inputs */
+input[type="file"] {
+    padding: 10px; /* Padding for file input */
+    border: 1px dashed #007bff; /* Dashed border for file input */
+    background-color: #f0f8ff; /* Light blue background */
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+    .form-container {
+        padding: 25px; /* Reduce padding for smaller screens */
+        max-width: 100%; /* Full width on mobile */
+    }
+
+    .form-container h2 {
+        font-size: 28px; /* Slightly smaller text */
+    }
+
+    .form-container input, .form-container textarea {
+        font-size: 14px; /* Smaller input text */
+    }
+
+    .form-container button {
+        font-size: 14px; /* Smaller button text */
+    }
+}
+.sub-row {
+    background-color: #f9f9f9; /* Light background for sub-parts */
+  }
+  
+  .sub-row td {
+    border-top: 1px solid #ddd; /* Subtle separator */
+    color: #555; /* Lighter color for sub-part text */
+  }
+  
+  .sub-row td:first-child {
+    padding-left: 20px; /* Indentation */
+    font-style: italic; /* Italics for differentiation */
+  }
+  /* Container for the review product card */
+.review-product-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 40px auto;
+    font-family: 'Roboto', sans-serif;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* Title styles */
+.review-product-card h2 {
+    font-size: 28px;
+    color: #007bff;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Form element styles */
+.review-product-card .form-group {
+    margin-bottom: 20px;
+}
+
+.review-product-card .form-label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.review-product-card .form-control {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s ease;
+}
+
+.review-product-card .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+}
+
+/* Button styling */
+.review-product-card button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-product-card button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 5px 15px rgba(0, 123, 255, 0.3);
+}

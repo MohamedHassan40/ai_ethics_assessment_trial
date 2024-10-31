@@ -1,0 +1,77 @@
+/* Review Details Container */
+.review-details-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+}
+
+/* Review Card */
+.review-details-card {
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Styling */
+.review-details-title {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 2px solid #007bff;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+/* Table Styling */
+.review-details-table {
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.review-details-table th, .review-details-table td {
+    padding: 15px;
+    font-size: 16px;
+    color: #555;
+}
+
+.review-details-table th {
+    background-color: #007bff;
+    color: white;
+    text-transform: uppercase;
+}
+
+.review-details-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.review-details-table ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.review-details-table li {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Criteria Status */
+.satisfied {
+    color: green;
+    font-weight: bold;
+}
+
+.missing {
+    color: red;
+    font-weight: bold;
+}

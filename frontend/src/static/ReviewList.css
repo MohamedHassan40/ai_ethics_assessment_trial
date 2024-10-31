@@ -1,0 +1,62 @@
+/* Container for the Review List */
+.review-list-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+/* Title styling */
+.review-list-title {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #007bff;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+
+/* Table styling */
+.review-table {
+    background-color: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.review-table th, .review-table td {
+    padding: 15px;
+    text-align: left;
+    color: #555;
+    font-size: 16px;
+}
+
+.review-table th {
+    background-color: #007bff;
+    color: white;
+    text-transform: uppercase;
+}
+
+.review-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Link styling */
+.review-link {
+    color: #007bff;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.review-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
